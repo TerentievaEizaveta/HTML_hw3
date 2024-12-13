@@ -2,21 +2,119 @@
     margin:0;
     padding:0;
 }
-
+body{
+    max-width: fit-content;
+    display: flex;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    padding-left: calc(50%-580px);
+    padding-right: calc(50%-580px);
+}
+.top{
+    position: relative;
+}
 .header{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap:400px;
+    
+}
+.header_logo{
+    width: 137px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.header_logo_orange{
+    color: #f25822;
+}
+.menu{    
     padding-top:40px;
     padding-bottom: 40px;
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+
 }
+.menu_home{
+
+    color: #f25822;
+}
+
 .top_content{
-    margin-top: 80px;
-    margin-bottom: 162px;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:39px;
 }
+.top_info{
+
+}
+
 .title{
     margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000;
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
 }
 .top_buttons{
     margin-top: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 72px;
+}
+.button{
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+
+}
+.text_top_button{
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
 }
 .top_logos{
     padding-top: 138px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
