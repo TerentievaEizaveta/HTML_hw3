@@ -3,7 +3,8 @@
     padding:0;
 }
 body{
-    max-width: fit-content;
+    max-width: 1024vm;
+    max-height: 1024vm;
     display: flex;
     background-color: #fff;
     font-family: "Poppins", sans-serif;
@@ -19,37 +20,21 @@ a{
     text-decoration: none;
 }
 .center{
-    padding-left: calc(50%-580px);
-    padding-right: calc(50%-580px);
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
 }
 .top{
     position: relative;
 }
 .header{
-    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
-    gap:400px;
-    
+    align-items: baseline;   
 }
-.header_logo{
-    width: 137px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #000;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-}
-.header_logo_orange{
-    color: #f25822;
-}
+
 .menu{    
     padding-top:40px;
-    padding-bottom: 40px;
     display: flex;
     gap: 15px;
     font-weight: 400;
@@ -69,9 +54,6 @@ a{
     align-items: center;
     justify-content: space-between;
     gap:39px;
-}
-.top_info{
-
 }
 
 .title{
@@ -105,9 +87,11 @@ a{
 
 }
 .text_top_button{
+    border:none;
     font-weight: 400;
     font-size: 15px;
     color: #aaa;
+    background: none;
 }
 .top_logos{
     padding-top: 138px;
